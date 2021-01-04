@@ -9,7 +9,7 @@ public class Player {
 	}
 	
 	public void cAttack(Character c) {
-		c.attack();
+		c.attack(2);
 	}
 	
 	public void cSkill(Character c) {

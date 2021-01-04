@@ -11,8 +11,8 @@ public class Genzi extends Character {
 	}
 	
 	@Override
-	public void attack() {
-		System.out.println("겐지가 수리검으로 공격합니다.");
+	public void attack(int count) {
+		System.out.println("겐지가 수리검으로 " + count + "번 공격합니다.");
 	}
 	
 	@Override

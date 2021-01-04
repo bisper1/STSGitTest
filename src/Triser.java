@@ -11,8 +11,8 @@ public class Triser extends Character {
 	}
 	
 	@Override
-	public void attack() {
-		System.out.println("트레이서가 펄스권총으로 공격합니다.");
+	public void attack(int count) {
+		System.out.println("트레이서가 펄스권총으로 " + count + "번 공격합니다.");
 	}
 	
 	@Override
